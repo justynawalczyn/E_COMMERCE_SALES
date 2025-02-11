@@ -66,10 +66,10 @@ import pandas as pd
 
 conn = psycopg2.connect(
     dbname="ecommerce_db",
-    user="postgres",
+    user=" ",
     password="your_password",
-    host="localhost",
-    port="5432"
+    host=" ",
+    port=" "
 )
 
 query = "SELECT * FROM ecommerce_sales;"
